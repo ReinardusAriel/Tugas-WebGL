@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL 2D Triangle</title>
+    <style>
+        canvas { border: 1px solid black; }
+        #controls { margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <canvas id="glcanvas" width="500" height="500"></canvas>
+    <div id="controls">
+        <button onclick="changeColor([1.0, 0.0, 0.0, 1.0])">Merah</button>
+        <button onclick="changeColor([1.0, 1.0, 0.0, 1.0])">Kuning</button>
+        <button onclick="changeColor([0.0, 1.0, 0.0, 1.0])">Hijau</button>
+        <button onclick="resetColor()">Reset</button>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+</html>
